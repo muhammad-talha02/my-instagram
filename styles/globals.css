@@ -57,10 +57,7 @@ body{
   background-color: rgb(250, 250, 250);
   border: 1px solid #ced4da;
 }
-hr{
-  width: 40%;
-  display: inline-block;
-}
+
 .OR-text{
   position: relative;
   top: -10px !important;
@@ -177,4 +174,10 @@ hr{
     top: 0;
     opacity: 0;
 
+}
+
+.profile-img{
+  width: 50%;
+  display: block;
+  margin: auto;
 }

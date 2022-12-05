@@ -13,7 +13,7 @@ const Sidebar = ({userName}) => {
           <div className="offcanvas-body">
             <ul className="navbar-nav justify-content-end flex-grow-1">
               <li className="nav-item">
-              <Link className="nav-link mb-1" href={"/"+userName}> <FontAwesomeIcon className='mx-2' icon={faHouse}/> Home</Link>
+              <Link className="nav-link mb-1" href="/home"> <FontAwesomeIcon className='mx-2' icon={faHouse}/> Home</Link>
               </li>
               <li className="nav-item my-2">
                 <Link className="nav-link" aria-current="page" href="/messages"><FontAwesomeIcon className='mx-2' icon={faMessage}/> Messages</Link>
@@ -22,7 +22,7 @@ const Sidebar = ({userName}) => {
                 <a className="nav-link"  data-bs-toggle="modal" data-bs-target="#PostModal"><FontAwesomeIcon className='mx-2' icon={faPlus}/> Post</a>
               </li>
               <li className="nav-item my-2">
-                <Link className="nav-link" aria-current="page" href={"/"+userName}><FontAwesomeIcon className='mx-2' icon={faUser}/> {userName}</Link>
+                <Link className="nav-link" aria-current="page" href="/user"><FontAwesomeIcon className='mx-2' icon={faUser}/> Profile</Link>
               </li>
               <li className="nav-item my-2">
                 <Link className="nav-link" aria-current="page" href="/"><FontAwesomeIcon className='mx-2' icon={faSignOut}/> Logout</Link>
